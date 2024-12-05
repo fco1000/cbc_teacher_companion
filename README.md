@@ -4,9 +4,11 @@
 
 Since the inception of the new Competency Based Curriculum, it has become evident that teachers have a lot more paper work to go through.
 
-This can cause some to be overwhelmed and may lead to reduced productity from them. It may cause the same for the children they are directing.
+This can cause some to be overwhelmed and may lead to reduced productivity from them. It may cause the same for the children they are directing.
 
-I have prospected that this may lead to a drop in the effectiveness of the curriculum which is intended to help learners grow with basic life skills and understand what they want to do in life
+I have prospected that this may lead to a drop in the effectiveness of the curriculum which is intended to help learners grow with basic life skills and understand what they want to do in life.
+
+This can be prevented by giving the teachers an easy to use platform that they can use. So when the teacher is relaxed they can give learners adequate attention and impart more knowledge.
 
 ## Methods of data collection
 
@@ -36,7 +38,7 @@ The following was gotten from these docs:
 
 - Database - NeoPostgress
 - Backend - Django
-- Frontend - Flutter
+- Frontend - React
 
 #### to access the frontend
 ```cmd

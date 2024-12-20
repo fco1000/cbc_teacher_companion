@@ -27,8 +27,6 @@ class AuthenticAssessment(models.Model):
     date = models.DateField(timezone.now())
     task = models.CharField(max_length=200)
     max_score = models.IntegerField()
-    score = models.IntegerField()
-    remark = models.CharField(choices=remark,max_length=100)
     
 class WrittenTest(models.Model):
     teacher = models.ForeignKey(User,on_delete=models.CASCADE)
@@ -37,8 +35,6 @@ class WrittenTest(models.Model):
     strand = models.ForeignKey(Strand,on_delete=models.CASCADE,null=True)   
     date = models.DateField(timezone.now())
     max_score = models.IntegerField()
-    score = models.IntegerField()
-    remark = models.CharField(choices=remark,max_length=100)
     
 class SummativeAssessment(models.Model):
     grade = models.CharField(choices=grade,max_length=100)
@@ -48,10 +44,6 @@ class SummativeAssessment(models.Model):
     learning_area = models.ForeignKey(LearningArea,on_delete=models.CASCADE,null=True)
     date = models.DateField(timezone.now())
     max_score = models.IntegerField()
-    score = models.IntegerField()
-    remark = models.CharField(choices=remark,max_length=200)
-    classteacher_remark = models.TextField(max_length=200)
-    headteacher_remark = models.TextField(max_length=200)
     
 class Portfolio(models.Model):
     grade = models.CharField(choices=grade,max_length=100)

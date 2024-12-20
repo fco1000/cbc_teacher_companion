@@ -1,0 +1,11 @@
+add a student assessmemt model file
+from all the models that have been created, inherit the main assessment classes and add score, and remarks(just normal, but add class and head teachers' remarks for the summative assessment).
+
+structure
+-model
+|_task_name
+|_date(auto_add)
+|_learner_name
+|_score
+|_remark
+
